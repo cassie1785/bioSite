@@ -1,0 +1,53 @@
+body {
+  background-color: #ffffff;
+  background-image: url('images/cart.JPG');
+  background-repeat: no-repeat;
+  padding-top: 0em;
+  margin-left: 5.5em;
+  margin-right: 4.7em;
+  background-position: center 50px;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+figure {
+  padding-left: 40em;
+}
+
+h1 {
+  font-family: 'Audiowide', cursive;
+  text-align: left;
+  padding-top: 3.7em;
+  padding-left: 35em;
+  padding-bottom: .5em;
+  margin: 0px;
+  background-color: rgba(0, 0, 0, 1);
+  color: #ffffff;
+}
+
+span.bio {
+  color: rgba(142, 143, 144, 1);
+}
+
+h2 {
+  font-family: 'Audiowide', cursive;
+  text-align: left;
+  padding-left: 47em;
+  padding-bottom: 4em;
+  margin: 0px;
+  background-color: rgba(0, 0, 0, 1);
+  color: #ffffff;
+}
+
+h3 {
+  font-family: 'Press Start 2P', cursive;
+}
+
+p {
+  font-family: 'Odibee Sans', cursive;
+  font-size: 28px;
+}
