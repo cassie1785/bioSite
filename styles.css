@@ -1,6 +1,6 @@
 body {
-  background-color: #ffffff;
-  background-image: url("images/cart.jpg");
+  background-color: #808080;
+  background-image: url("images/cart2.jpg");
   background-repeat: no-repeat;
   padding-top: 0em;
   margin-left: 5.5em;
@@ -11,19 +11,19 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
 }
 
-figure {
-  padding-left: 40em;
+.img-container {
+  width: 100%;
+  padding-left: 2em;
 }
 
 h1 {
   font-family: 'Audiowide', cursive;
   text-align: left;
-  padding-top: 3.7em;
-  padding-left: 35em;
-  padding-bottom: .5em;
+  padding-top: 7em;
+  width: 100%;
+  padding-bottom: .6em;
   margin: 0px;
   background-color: rgba(0, 0, 0, 1);
   color: #ffffff;
@@ -36,11 +36,24 @@ span.bio {
 h2 {
   font-family: 'Audiowide', cursive;
   text-align: left;
-  padding-left: 47em;
-  padding-bottom: 4em;
+  width: 100%;
+  padding-bottom: 7em;
   margin: 0px;
   background-color: rgba(0, 0, 0, 1);
   color: #ffffff;
+}
+
+nav a {
+    background-color: black;
+    color: #ffffff;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    padding: 20px 20px 20px;
+    text-align: center;
+}
+
+nav a:hover {
+   background-color: #808080;
 }
 
 h3 {
@@ -50,4 +63,46 @@ h3 {
 p {
   font-family: 'Odibee Sans', cursive;
   font-size: 28px;
+}
+
+table {
+  padding-top: 0em;
+}
+
+th {
+  font-family: 'Audiowide', cursive;
+  font-size: 20px;
+  text-align: left;
+}
+
+tr {
+  font-family: 'Odibee Sans', cursive;
+  font-size: 28px;
+  text-align: left;
+  padding-left: 4em;
+}
+
+figcaption {
+  font-family: 'Odibee Sans', cursive;
+  font-weight: 400
+  font-size: .75em;
+}
+
+footer {
+  align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+a {
+ font-family: 'Press Start 2P', cursive;
+ color: black;
+}
+
+a:hover {
+   color: rgb(254, 1 , 0);
+}
+
+footer {
+  text-align: center;
 }
